@@ -14,7 +14,7 @@ const Vote = () => {
     }
   return (
     <>
-    <h1>Vote Calculator</h1>
+    <h1 className="head">Vote Calculator</h1>
     <input type="number" onChange={(e) =>{setage(e.target.value)}}   placeholder='Enter your Age' />
     <h3>Entered Age : {age}</h3>
     <button onClick={handleCheck}>Check</button>
