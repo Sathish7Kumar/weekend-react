@@ -44,6 +44,9 @@
 
 import React, { createContext, useState } from "react";
 import Reducer from "./Reducer/Reducer";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigation from "./pages/Navigation";
+import './App.css'
 
 export const BankContext = createContext()
 
@@ -51,6 +54,7 @@ const App2 = () => {
   const [amount, setamount] = useState(1000)
   return (
     <BankContext.Provider value={amount}>
+      <Navigation/>
       <Reducer />
     </BankContext.Provider>
   );

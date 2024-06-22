@@ -28,6 +28,7 @@
 //   )
 // }
 
+// props in function : 
 
 function Home( {name,age} ) {
   return(
