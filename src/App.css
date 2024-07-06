@@ -1,4 +1,4 @@
-.head{
+/* .head{
     color: red;
 }
 
@@ -8,4 +8,41 @@
     border: 1px solid black;
     border-radius: 50%;
     margin: -5px 5px 0 0;
+} */
+
+nav{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+ul{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.home-link{
+    text-decoration: none;
+    color: red;
+}
+
+.home-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50vh;
 }

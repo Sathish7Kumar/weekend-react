@@ -33,7 +33,7 @@
 //   return (
 //     <NameContext.Provider value={{name,age}}>
 //     <h1>APP</h1>
-//     <Homepage1/>
+//     <Homepage1 />
 //     </NameContext.Provider>
 //   )
 // }
@@ -61,3 +61,7 @@ const App2 = () => {
 };
 
 export default App2;
+
+
+// useState, useEffect, useContext, useReducer,
+
