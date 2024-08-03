@@ -46,3 +46,14 @@ li a{
     flex-wrap: wrap;
     height: 50vh;
 }
+
+/*  product app */
+
+.product-home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
